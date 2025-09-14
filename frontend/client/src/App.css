@@ -1,0 +1,18 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  align-items: center;
+}
+
+table {
+  width: 50%;
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 25%;
+}
