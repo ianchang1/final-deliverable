@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../App.css";
 
 const Table = () => {
+  const [dogs, setDogs] = useState([]);
   async function getAllDogs() {
     try {
       const res = await fetch("http://localhost:8080/dogs");
